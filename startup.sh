@@ -1,1 +1,1 @@
-docker run -d -it -p 25565:25565 -e EULA=TRUE itzg/minecraft-server
+# docker run -d -it -p 25565:25565 -e EULA=TRUE itzg/minecraft-server
