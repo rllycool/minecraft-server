@@ -6,7 +6,29 @@ services:
     ports:
       - "25565:25565"
     environment:
-      EULA: "TRUE"
+      EULA: 'TRUE'
+
+      # launcher config
+      TYPE: 'FORGE'
+      VERSION: '1.19.2'
+
+      # curseforge api
+      # CF_API_KEY:
+      # CF_SLUG: raspberry-flavoured
+
+      # server config
+      SERVER_NAME: "Boots City"
+      MOTD: "Boots"
+      ICON: /server-utils/Gragas.png
+      DIFFICULTY: 'hard'
+      OPS: |
+        rllycool
+      
+      VIEW_DISTANCE: '16'
+      SIMULATION_DISTANCE: '16'
+
+      MEMORY: 8G
     volumes:
-      # attach the relative directory 'data' to the container's /data path
+      # mount file paths
       - ./data:/data
+      - ./server-utils:/server-utils
