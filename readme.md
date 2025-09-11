@@ -1,6 +1,9 @@
-# Minecraft-server
+# Docker Minecraft Server
 
 A self-hosted minecraft server for me and my friends to play on!
+
+![Member List](server-utils/Server-Stats.png)
+![Server Listing](server-utils/Server-Listing.png)
 
 This container uses a [CurseForge](https://www.curseforge.com) api to download any modpacks you wish to play with.
 
