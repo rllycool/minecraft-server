@@ -1,6 +1,26 @@
-- docker compose up -d 
+## Docker Minecraft Server ##
 
+A self-hosted ${\color{red}Modded}$ Minecraft server for me and my friends to play on!
 
-- Point your client at your host's name/IP address and port 25565.
+This container uses a [CurseForge](https://www.curseforge.com) API to download modpacks listed in your `docker-compose.yaml` file.
 
-- Follow the logs of the container using docker compose logs -f, check on the status with docker compose ps, and stop the container using docker compose stop
+![Member List](server-utils/Server-Stats.png)
+
+![Server Listing](server-utils/Server-Listing.png)
+
+## Mods ##
+[Raspberry-flavoured](https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured)
+ 
+
+ ## Commands ##
+ 
+ _Build Command_: `docker compose up -d`
+ 
+ _Status_: `docker compose ps`
+ 
+_Check Logs_: `docker compose logs -f`
+
+_Stop Container_: `docker compose stop`
+
+## Reference
+[docker-minecraft-server](https://github.com/itzg/docker-minecraft-server?tab=readme-ov-file)
