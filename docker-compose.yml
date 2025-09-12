@@ -18,20 +18,20 @@ services:
 
       # server config
       SERVER_NAME: "Boots City"
-      MOTD: "Boots"
-      ICON: /server-utils/Gragas.png
+      MOTD: "Boots: we lit mfff"
+      ICON: /server-utils/fnaf.jpg
       DIFFICULTY: 'hard'
 
       OPS: |
         rllycool
         CMOG
       ENABLE_STATUS: 'true'
-      MAX_PLAYERS: '10'
+      MAX_PLAYERS: '20'
 
-      VIEW_DISTANCE: '22'
-      SIMULATION_DISTANCE: '16'
+      VIEW_DISTANCE: '32'
+      SIMULATION_DISTANCE: '12'
 
-      MEMORY: 10G
+      MEMORY: 12G
     volumes:
       # mount file paths
       - ./data:/data
