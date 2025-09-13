@@ -18,7 +18,7 @@ services:
 
       # server config
       SERVER_NAME: "Boots City"
-      MOTD: "Boots: Life is incredible again!"
+      MOTD: "VIP 40% Off In Shop!"
       ICON: /server-utils/Boots-Icon.png
       OVERRIDE_ICON: true
       DIFFICULTY: 'hard'
@@ -26,6 +26,7 @@ services:
       OPS: |
         rllycool
         CMOG
+        
       ALLOW_FLIGHT: 'true'
       ENABLE_COMMAND_BLOCK: 'true'
       ENABLE_STATUS: 'true'
