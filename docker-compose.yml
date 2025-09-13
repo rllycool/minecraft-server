@@ -18,8 +18,8 @@ services:
 
       # server config
       SERVER_NAME: "Boots City"
-      MOTD: "Boots: we lit mfff"
-      ICON: /server-utils/boots.png
+      MOTD: "Boots: Life is incredible again!
+      ICON: /server-utils/Boots-Icon.png
       DIFFICULTY: 'hard'
 
       OPS: |
@@ -31,9 +31,9 @@ services:
 
       VIEW_DISTANCE: '32'
       SIMULATION_DISTANCE: '12'
-
       MEMORY: 12G
+      
     volumes:
       # mount file paths
       - ./data:/data
-      - ./server-utils:/server-utils
+      - /server-utils:/server-utils
