@@ -26,6 +26,7 @@ services:
       OPS: |
         rllycool
         CMOG
+      ALLOW_FLIGHT: 'true'
       ENABLE_COMMAND_BLOCK: 'true'
       ENABLE_STATUS: 'true'
       MAX_PLAYERS: '20'
