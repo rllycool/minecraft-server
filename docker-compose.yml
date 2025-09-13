@@ -20,6 +20,7 @@ services:
       SERVER_NAME: "Boots City"
       MOTD: "Boots: Life is incredible again!
       ICON: /server-utils/Boots-Icon.png
+      OVERRIDE_ICON: true
       DIFFICULTY: 'hard'
 
       OPS: |
@@ -36,4 +37,4 @@ services:
     volumes:
       # mount file paths
       - ./data:/data
-      - /server-utils:/server-utils
+      - ./server-utils:/server-utils
