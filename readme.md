@@ -6,7 +6,7 @@ This container uses a [CurseForge](https://www.curseforge.com) API to download m
 
 ![Member List](server-utils/Server-Stats.png)
 
-![Server Listing](server-utils/Server-Listing.png)
+![Server Listing](server-utils/Server-Listing-Boots.png)
 
 ## Mods ##
 [Raspberry-flavoured](https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured)
