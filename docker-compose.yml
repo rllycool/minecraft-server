@@ -19,7 +19,7 @@ services:
       # server config
       SERVER_NAME: "Boots City"
       MOTD: "Boots: we lit mfff"
-      ICON: /server-utils/fnaf.jpg
+      ICON: /server-utils/boots.png
       DIFFICULTY: 'hard'
 
       OPS: |
