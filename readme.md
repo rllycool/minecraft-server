@@ -20,7 +20,7 @@ This container uses a [CurseForge](https://www.curseforge.com) API to download m
  
 _Check Logs_: `docker compose logs -f`
 
-_Stop Container_: `docker compose stop`
+_Stop Container_: `docker compose down`
 
 ## Reference
 [docker-minecraft-server](https://github.com/itzg/docker-minecraft-server?tab=readme-ov-file)
