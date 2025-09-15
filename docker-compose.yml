@@ -18,7 +18,7 @@ services:
 
       # server config
       SERVER_NAME: "Boots City"
-      MOTD: "VIP 40% Off In Shop!"
+      MOTD: "Jimmy Johns day eh?"
       ICON: /server-utils/Boots-Icon.png
       OVERRIDE_ICON: true
       DIFFICULTY: 'hard'
