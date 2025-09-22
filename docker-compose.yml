@@ -18,22 +18,20 @@ services:
 
       # server config
       SERVER_NAME: "Boots City"
-      MOTD: "Jimmy Johns day eh?"
+      MOTD: "Now with 2x Boots!!!"
       ICON: /server-utils/Boots-Icon.png
       OVERRIDE_ICON: true
       DIFFICULTY: 'hard'
-
       OPS: |
         rllycool
-        CMOG
         
       ALLOW_FLIGHT: 'true'
       ENABLE_COMMAND_BLOCK: 'true'
       ENABLE_STATUS: 'true'
-      MAX_PLAYERS: '20'
+      MAX_PLAYERS: '12'
 
-      VIEW_DISTANCE: '32'
-      SIMULATION_DISTANCE: '12'
+      VIEW_DISTANCE: '30'
+      SIMULATION_DISTANCE: '10'
       MEMORY: 12G
       
     volumes:
