@@ -18,7 +18,7 @@ services:
 
       # server config
       SERVER_NAME: "Boots City"
-      MOTD: "Now with 2x Boots!!!"
+      MOTD: "Boots Server - Raspberry Flavoured 3.0.2 - MOTD: Try Deep Rock Galactic!"
       ICON: /server-utils/Boots-Icon.png
       OVERRIDE_ICON: true
       DIFFICULTY: 'hard'
@@ -30,7 +30,7 @@ services:
       ENABLE_STATUS: 'true'
       MAX_PLAYERS: '12'
 
-      VIEW_DISTANCE: '30'
+      VIEW_DISTANCE: '32'
       SIMULATION_DISTANCE: '10'
       MEMORY: 12G
       
