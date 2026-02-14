@@ -9,17 +9,12 @@ services:
       EULA: 'TRUE'
 
       # launcher config
-      TYPE: 'FORGE'
-      VERSION: '1.19.2'
-
-      # curseforge api
-      # CF_API_KEY:
-      # CF_SLUG: raspberry-flavoured
+      VERSION: '1.21.11'
 
       # server config
-      SERVER_NAME: "Boots City"
-      MOTD: "Boots Server - Raspberry Flavoured 3.0.2 - MOTD: Try Deep Rock Galactic!"
-      ICON: /server-utils/Boots-Icon.png
+      SERVER_NAME: "E10 Server"
+      MOTD: "E10 Server - Hi"
+      ICON: /server-utils/e10.png
       OVERRIDE_ICON: true
       DIFFICULTY: 'hard'
       OPS: |
@@ -28,7 +23,7 @@ services:
       ALLOW_FLIGHT: 'true'
       ENABLE_COMMAND_BLOCK: 'true'
       ENABLE_STATUS: 'true'
-      MAX_PLAYERS: '12'
+      MAX_PLAYERS: '4'
 
       VIEW_DISTANCE: '32'
       SIMULATION_DISTANCE: '10'

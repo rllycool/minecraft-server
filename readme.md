@@ -1,16 +1,8 @@
 ## Docker Minecraft Server ##
 
+Vanilla E10 Server Branch, todo update this readme
+
 A self-hosted ${\color{red}Modded}$ Minecraft server for me and my friends to play on!
-
-This container uses a [CurseForge](https://www.curseforge.com) API to download modpacks listed in your `docker-compose.yaml` file.
-
-![Member List](server-utils/Server-Stats.png)
-
-![Server Listing](server-utils/Server-Listing-Boots.png)
-
-## Mods ##
-[Raspberry-flavoured](https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured)
- 
 
  ## Commands ##
  
