@@ -10,7 +10,7 @@ services:
       EULA: 'TRUE'
 
       # launcher config
-      VERSION: '1.21.11'
+      VERSION: '26.1.2'
 
       # server config
       SERVER_NAME: "E10 Server"
