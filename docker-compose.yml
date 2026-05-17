@@ -2,6 +2,7 @@ name: mc-vanilla
 services:
   mc:
     image: itzg/minecraft-server
+    restart: unless-stopped
     tty: true
     stdin_open: true
     ports:
