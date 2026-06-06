@@ -10,11 +10,10 @@ This server is hosted on a Docker Container and uses the [CurseForge](https://ww
 ## Mods ##
 [Raspberry-flavoured](https://www.curseforge.com/minecraft/modpacks/raspberry-flavoured)
  
-
- ## Commands ##
- _Build Command_: `docker compose up -d`
+## Commands ##
+_Build Command_: `docker compose up -d`
  
- _Status_: `docker compose ps`
+_Status_: `docker compose ps`
  
 _Check Logs_: `docker compose logs -f`
 
