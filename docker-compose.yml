@@ -1,4 +1,4 @@
-name: mc-boots
+name: mc-boots 
 services:
   mc:
     image: itzg/minecraft-server
@@ -9,15 +9,14 @@ services:
     environment:
       EULA: 'TRUE'
 
-      # launcher config
+      # Mod Launcher config
       TYPE: 'FORGE'
       VERSION: '1.19.2'
-
-      # curseforge api
+      # TODO is this needed? Can either configure this to download from CF directly or download and load mods manually
       # CF_API_KEY:
       # CF_SLUG: raspberry-flavoured
 
-      # server config
+      # Server Config
       SERVER_NAME: "Boots City"
       MOTD: "Boots Server - Raspberry Flavoured 3.0.2 - MOTD: Try Deep Rock Galactic!"
       ICON: /server-utils/Boots-Icon.png
@@ -25,17 +24,16 @@ services:
       DIFFICULTY: 'hard'
       OPS: |
         rllycool
-        
+
+      # Server System Config 
       ALLOW_FLIGHT: 'true'
       ENABLE_COMMAND_BLOCK: 'true'
       ENABLE_STATUS: 'true'
       MAX_PLAYERS: '12'
-
       VIEW_DISTANCE: '32'
       SIMULATION_DISTANCE: '10'
       MEMORY: 12G
       
     volumes:
-      # mount file paths
       - ./data:/data
       - ./server-utils:/server-utils
