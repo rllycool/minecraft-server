@@ -11,12 +11,12 @@ services:
       EULA: 'TRUE'
 
       # launcher config
-      VERSION: '26.1.2'
+      VERSION: '26.2'
 
       # server config
       SERVER_NAME: "E10 Server"
       MOTD: "E10 Server - Hi"
-      ICON: /server-utils/e10.png
+      ICON: /server-utils/uncanny-cat.png
       OVERRIDE_ICON: true
       DIFFICULTY: 'hard'
       OPS: |
